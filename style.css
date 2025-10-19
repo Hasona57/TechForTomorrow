@@ -1,0 +1,100 @@
+body {
+    font-family: "Share Tech", sans-serif;
+    background-color: #00345c;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(82, 188, 245);
+    padding: 15px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #ffcc00;
+}
+header {
+    text-align: center;
+    padding: 80px 20px 50px;
+    background: radial-gradient(circle at center, rgba(0,229,255,0.2), transparent);
+}
+header h1{
+    font-size: 3rem;
+    color: rgb(82, 188, 245);
+    text-shadow: 0 0 10px rgb(82, 188, 245);
+}
+header p{
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 15px;
+}
+img {
+    display: block;
+    width: 80%;
+    margin: 30px auto;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgb(82, 188, 245);
+    transition: transform 0.4s ease,box-shadow 0.4s ease;
+}
+img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 30px rgb(126, 205, 248);
+}
+section{
+    width: 85%;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #00345c;
+    border: 1px solid rgb(82, 188, 245);
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgb(126, 205, 248);
+}
+section h2{
+  color: rgb(255, 157, 0);
+  margin-bottom: 10px;
+  text-shadow: 0 0 8px rgb(255, 209, 71);
+}
+section h3 {
+  color: rgb(82, 188, 245);
+  margin-top: 15px;
+}
+section a{
+    color: rgb(82, 188, 245);
+    margin-top: 15px;
+}
+footer {
+    background-color: #00345c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+.error {
+    text-align: center;
+    padding: 100px 20px;
+}
+.error h1 {
+    font-size: 2.5rem;
+    color: rgb(255, 157, 0);
+    text-shadow: 0 0 10px rgb(255, 209, 71);
+}
+.home-btn  {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: rgb(82, 188, 245);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.home-btn:hover{
+    background-color: rgb(255, 157, 0);
+    box-shadow: 0 0 15px rgb(255, 157, 0);
+}
