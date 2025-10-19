@@ -98,3 +98,14 @@ footer {
     background-color: rgb(255, 157, 0);
     box-shadow: 0 0 15px rgb(255, 157, 0);
 }
+#static{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(82, 188, 245);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
